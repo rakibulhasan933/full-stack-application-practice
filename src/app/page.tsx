@@ -2,7 +2,7 @@ import { UserIProps } from "../../types";
 
 
 async function getUsers() {
-  const res = await fetch("http://localhost:3000/api/users", {
+  const res = await fetch("https://full-stack-application-practice.vercel.app/api/users", {
     cache: "no-cache"
   })
   if (!res.ok) {
